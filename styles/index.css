@@ -49,11 +49,12 @@ nav {
 #navbar-logo {
     width: 120px;
     margin-right: 220px;
-    transition: 0.1s;
+    transition: 0.s;
 }
 
 #navbar-logo:hover {
     filter: brightness(1.02);
+    transform: rotate(2deg);
 }
 
 nav a {
@@ -111,6 +112,7 @@ main section img {
 
 main section img:hover {
     filter: brightness(1.1);
+    transform: rotate(2deg);
 }
 
 main section p {
