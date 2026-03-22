@@ -77,3 +77,51 @@ nav button:hover {
 nav button:focus {
     background-color: #7ba95b;
 }
+
+footer {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#footer-attributions-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+#attributions-line-1 {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#attributions-line-2 {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+footer h6 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+#social-media-container {
+    display: flex;
+    width: 20%;
+}
+
+#social-media-container img {
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    transition: 0.1s;
+}
+
+#social-media-container img:hover {
+filter: brightness(0) saturate(100%) invert(79%) sepia(28%) saturate(630%) hue-rotate(47deg) brightness(92%) contrast(89%);
+cursor: pointer;
+}
