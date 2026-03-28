@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+main{
+    margin-top: 150px;
+
+}
+
+#gallery h1{
+    font-family: "Titan One", sans-serif;
+}
 body {
     line-height: 1;
     font-family: sans-serif;
